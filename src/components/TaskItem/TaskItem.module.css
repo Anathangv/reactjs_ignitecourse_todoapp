@@ -1,0 +1,53 @@
+.taskItem{
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--gray-500);
+  
+}
+
+.taskItem + .taskItem{
+  margin-top: 0.75rem;
+}
+
+input[type=checkbox] {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--gray-500);
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid var(--blue);
+  appearance: none;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+  background-color: var(--purple);
+  border: 2px solid var(--purple);
+}
+
+.taskItem label{
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 39.5rem;
+  margin: 0 0.75rem;
+}
+
+.taskDone{
+  text-decoration: line-through;
+}
+
+
+.taskItem svg{
+  color: var(--gray-300);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.taskItem svg:hover{
+  color: var(--danger)
+}

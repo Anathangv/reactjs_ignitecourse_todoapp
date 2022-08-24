@@ -1,0 +1,33 @@
+.header{
+  background-color: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4.5rem;
+  padding-bottom: 5rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+
+.header img{
+  height: 2.25rem;
+  margin-right: 0.75rem;
+}
+
+.header strong{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.titleBlue{
+  color: var(--blue);
+}
+
+.titlePurple{
+  color: var(--purple);
+}
+

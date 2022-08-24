@@ -1,0 +1,16 @@
+.tasksContainer{
+  width: 46rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: block;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.tasksContainerWithBorder{
+  border-top: 1px solid var(--gray-400);
+}
